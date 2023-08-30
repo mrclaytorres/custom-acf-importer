@@ -119,16 +119,16 @@ function custom_import_action() {
           echo 'Importing ' . $line[$x] . '</br>';
           //$line is an array of the csv elements
           update_post_meta($line[0], 'question_and_answer_' . $i . '_question', $line[$x] );
-          update_post_meta($line[0], '_question_and_answer_'. $i . '_question', '<Repeater Sub-field Key for question>');
+          update_post_meta($line[0], '_question_and_answer_'. $i . '_question', '<QUESTION SUB-FIELD KEY>');
           update_post_meta($line[0], 'question_and_answer_'. $i .'_answer', $line[$y] );
-          update_post_meta($line[0], '_question_and_answer_'. $i .'_answer', '<Repeater Sub-field Key for answer>');
+          update_post_meta($line[0], '_question_and_answer_'. $i .'_answer', '<ANSWER SUB-FIELD KEY>');
           $x += 2;
           $y += 2;
           $i++;
           
         }
         update_post_meta($line[0], 'question_and_answer', $i);
-        update_post_meta($line[0], '_question_and_answer', '<Repeater field Key for Question and Answer>');
+        update_post_meta($line[0], '_question_and_answer', '<QUESTION_AND_ANSWER FIELD KEY>');
       }
       fclose($file);
 
