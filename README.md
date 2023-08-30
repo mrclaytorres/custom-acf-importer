@@ -10,8 +10,8 @@ For this example, I wanted to bulk import some FAQ data (Question and its answer
 
 #### ACF field example
 
-![ACF field example](https://github.com/claytorres/custom-acf-importer/blob/main/cai1.png?raw=true)
+![ACF field example](https://raw.githubusercontent.com/mrclaytorres/custom-acf-importer/main/cai1.png)
 
 #### CSV input example
 
-![CSV input example](https://github.com/claytorres/custom-acf-importer/blob/main/cai2.png?raw=true)
+![CSV input example](https://raw.githubusercontent.com/mrclaytorres/custom-acf-importer/main/cai2.png)
